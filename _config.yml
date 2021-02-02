@@ -4,3 +4,4 @@ email: mensanli@163.com
 theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
+  - jekyll-archives
