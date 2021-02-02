@@ -1,4 +1,4 @@
-In this project I want to summarize some [seismic_data](https://github.com/Mensanli/seismic_data_process/blob/gh-pages/tools/gcap_steps.md) processing flow. 
+In this project I want to summarize some [seismic_data](https://github.com/Mensanli/seismic_data_process/blob/gh-pages/tools/gcap_steps.html) processing flow. 
 [another page](https://github.com/Mensanli/seismic_data_process/blob/gh-pages/anothepage.md)
 
 # Steps of CAP
