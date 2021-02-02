@@ -1,13 +1,10 @@
 In this project I want to summarize some [seismic_data](https://github.com/Mensanli/seismic_data_process/tree/gh-pages/tools) processing flow. 
-* [Steps of gcap](#1)
-	* [Disposal data](#1.1)
-	* [Create Green's function](#1.2)
-	* [Run gcap](#1.3)
-# <h2 id="1"> Steps of CAP </h2>
+
+# Steps of CAP
 
 ***
 
-# <h2 id="1.1"> Disposal data </h2>
+# Disposal data
 
 ## 1. data require
 
@@ -141,7 +138,7 @@ saclst kstnm a dist f *.r |gawk '{if ($4>0 && $4<400) print $2,$4,2,2,1,1,1,$3,0
 
 ***
 
-# <h2 id="1.2"> Create green's function </h2> 
+# Create green's function 
 
 ~~~bash
 sh fk.sh
@@ -162,7 +159,7 @@ done
 
 ***
 
-# <h2 id="1.3"> Run cap </h2>
+# Run gcap
 
 run cap.sh:
 
