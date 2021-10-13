@@ -5,8 +5,8 @@
 open(PICK,"<","phase_info.dat")||die"cannot open the file:$!\n";
 open(IDDIR,"<","iddir.dat")||die"cannot open the file:$!\n";
  
-#将pick.dat数组的第1/3/5列分别写入数组id,a,t0;
-#(split后lines的长度会变化,不再是行数,而是被split为几份),$id[$i]=@lines[1](注意$i,而不能是i);
+#将phase_info.dat数组的第各数据列分别写入数组id,a,t0等;
+#(split后lines的长度会变化,不再是行数,而是被split为几份),$id[$i]=@lines[1];
 #BCB014,7553,26.2287,100.0115,2203,2021,150,21,16,41,24,25.5140,100.0309,1.8,13.35,Pg,24.99,Sg
 $i=0;
 while(<PICK>){
