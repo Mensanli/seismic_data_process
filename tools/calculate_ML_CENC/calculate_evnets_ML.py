@@ -1,6 +1,6 @@
 #2021.6.1 @msl
 #calculate ML CENC 
-#last 2021.11.22
+#last: 2021.11.22
 
 from obspy.core import UTCDateTime,read
 import os
@@ -21,7 +21,7 @@ project_dir="event-waves"   # events_dir="20210521135347"  used in demo
 RESP="RESP.all"
 pzall="sac_PZs2"
 # R13="R13.txt" # calib table  # Yunnan R13 Ruifeng Liu et al (2017)
-sac_tmp="sac_tmp" # dir save the sac temp (create in advance)
+sac_tmp="sac_tmp" # dir save the sac DD-1 temp (create in advance)
 Ratio_ML="ML_ratio_table.txt" # reference eqs M>3.5
 outfile="ML_results.txt"
 #Pick_dir="Pick_0304-0530_48sta"
