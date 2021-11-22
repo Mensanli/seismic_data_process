@@ -364,6 +364,3 @@ with open(outfile,'w') as f:
         print(events_dir, "ML: ", mean(lML), "; ML2: ", mean(lML2), "; ML3: ", mean(lML3), Event)
         f.write("{} ML: {} ML2: {} ML3: {} by {} in {}\n".format(events_dir, mean(lML), mean(lML2), mean(lML3), Event, Dist))
 f.close()
-
-
-
