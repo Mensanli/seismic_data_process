@@ -72,7 +72,7 @@ with open('_temp4.phs','wt') as fb:
     item=fe.readline()
     item=item.strip("\n")
     item=item.split(" ")
-    #print(item)
+    print(item)
     mstation=item[0]
     mevid=item[1]
     mpha=item[-1]
@@ -80,12 +80,13 @@ with open('_temp4.phs','wt') as fb:
     mpha0=item[-3]
     mpick0=item[-4]
     show1=' '.join(item)
-#    print(show1)
+ #   print(show1)
     fb.write("{}\n".format(show1))
     for bb in fe.readlines():
         bb=bb.strip("\n")
         bb=bb.split(" ")
         show0=' '.join(bb)
+#        print(show0)
         show="{} {} {} {} {} {} {} {} {} {}  {} {} {} {}".format(bb[0],bb[1],bb[2],bb[3],bb[4],bb[5],bb[6],bb[7],bb[8],bb[9],bb[10],bb[11],bb[12],bb[13])
         if bb[0]==mstation and bb[1]==mevid and bb[-2]==mpick:
 #            print(show1)
@@ -126,6 +127,8 @@ with open(phs_data,'wt') as fd:
     for temp in fe3.readlines():
         temp=temp.strip("\n")
         temp=temp.split(" ")
+        while '' in temp:
+            temp.remove('')
         #print(temp[0])
         idea_i=temp[0]+temp[1]
         #print(idea_i)
