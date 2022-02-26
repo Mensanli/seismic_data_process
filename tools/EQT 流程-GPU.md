@@ -106,7 +106,7 @@ mseed_predictor(input_dir='../project_YC_2021',
 
 ### 方法一：eqt关联
 
-关联事件目前只能在r730上运行
+
 
 ### 方法二：REAL
 
@@ -247,7 +247,7 @@ done
 
 #### 4.整理REAL结果
 
-由于
+xxx (soon)
 
 ************
 
